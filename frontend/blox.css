@@ -1,0 +1,78 @@
+/*
+ *	BloX
+ *
+ *	(c) 2022 Maria Matejka <mq@jmq.cz>
+ *
+ *	Can be freely distributed and used under the terms of the GNU GPL.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: black;
+}
+
+#container {
+  max-width: 1234px;
+  margin: 20px auto;
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+div.inactive {
+  background-color: rgb(255, 200, 200);
+}
+
+#erow {
+  max-width: 1111px;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(-45deg, yellow, yellow 10px, black 10px, black 20px);
+/*  background-color: rgb(255, 255, 240);*/
+  margin: 10px auto;
+  border: 10px solid red;
+  border-radius: 20px;
+  padding: 25px;
+  font-size: 200%;
+}
+
+.erow-hide {
+  display: none;
+}
+
+#erow p {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 250%;
+  text-align: center;
+}
+
+#controller {
+  height: 700px;
+  width: 1000px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.device {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.device-name {
+  text-align: left;
+}
